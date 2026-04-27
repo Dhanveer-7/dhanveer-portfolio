@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/dhanveer-portfolio/static/css/main.cc0c38d6.css",
+    "main.js": "/dhanveer-portfolio/static/js/main.cd1321fb.js",
+    "index.html": "/dhanveer-portfolio/index.html",
+    "main.cc0c38d6.css.map": "/dhanveer-portfolio/static/css/main.cc0c38d6.css.map",
+    "main.cd1321fb.js.map": "/dhanveer-portfolio/static/js/main.cd1321fb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cc0c38d6.css",
+    "static/js/main.cd1321fb.js"
+  ]
+}
