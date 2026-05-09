@@ -4,6 +4,18 @@ const Experience = () => {
   const experiences = [
     {
       id: 1,
+      role: 'AI & Machine Learning Intern',
+      company: 'Edunet Foundation (AICTE)',
+      duration: 'Jan 2026 – Feb 2026',
+      location: 'Remote',
+      responsibilities: [
+        'Successfully completed a 6-week Internship on Artificial Intelligence & Machine Learning.',
+        'Strengthened understanding of AI/ML concepts and worked on practical implementations.',
+        'Gained valuable industry exposure in emerging technologies.'
+      ]
+    },
+    {
+      id: 2,
       role: 'Software Developer Intern',
       company: 'Stackmod Innovations Pvt. Ltd.',
       duration: 'Dec 2025 – Jan 2026',
@@ -15,7 +27,7 @@ const Experience = () => {
       ]
     },
     {
-      id: 2,
+      id: 3,
       role: 'Java Programming Intern',
       company: 'InternPe',
       duration: 'Dec 2025',
@@ -27,16 +39,36 @@ const Experience = () => {
       ]
     },
     {
-      id: 3,
+      id: 4,
       role: 'Python Programming Intern',
       company: 'CodeAlpha',
       duration: 'July 2025',
       location: 'Remote',
       responsibilities: [
         'Received an official Letter of Recommendation for strong analytical skills and dedication.',
-        'Developed an Advanced Rule-Based Chatbot mapped with intents and natural conversation flow.',
-        'Created a Stock Portfolio Tracker with file handling and UTF-8 encoding fixes, and built a Hangman game.',
-        'Maintained structured and well-documented GitHub repositories for all deliverables.'
+        'Completed 4 real-world projects including an Advanced Rule-Based Chatbot, Stock Portfolio Tracker, and a Hangman game.',
+        'Faced and overcame bugs like UnicodeEncodeError and gained experience in GitHub structuring.'
+      ]
+    },
+    {
+      id: 5,
+      role: 'Python Intern',
+      company: 'Codec Technologies India',
+      duration: 'May 2025 – Jun 2025',
+      location: 'Remote',
+      responsibilities: [
+        'Worked on Python logic building, small automation scripts, and structured problem-solving exercises.'
+      ]
+    },
+    {
+      id: 6,
+      role: 'Course Instructor',
+      company: 'NKI Computers',
+      duration: 'May 2024 – Jul 2024',
+      location: 'Tamil Nadu, India',
+      responsibilities: [
+        'Taught HTML and CSS to students during a web design program.',
+        'Guided students in using MS Office tools effectively.'
       ]
     }
   ];

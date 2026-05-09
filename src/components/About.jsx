@@ -3,6 +3,11 @@ import React from 'react';
 const About = () => {
   const certifications = [
     'AWS APAC Solutions Architecture Virtual Experience (Forage)',
+    'AWS Educate (Cloud 101, Gen AI, ML Foundations)',
+    'AI Ascend 2026 Learning Program (Kyndryl & AWS)',
+    'Artificial Intelligence Fundamentals (IBM SkillsBuild)',
+    'C Programming Certification (GUVI & HCL)',
+    'Obtain an Appropriate Job (Wadhwani Foundation)',
     'Postman API Fundamentals Student Expert',
     'Basics of Python (Infosys Springboard)',
     'Artificial Intelligence (Accenture & Kodacy)',
@@ -23,8 +28,10 @@ const About = () => {
         
         <div className="card" style={{ marginBottom: '2rem' }}>
           <p style={{ fontSize: '1.1rem', marginBottom: '1rem' }}>
-            Hello! I'm Dhanveer M, an aspiring software developer and AI enthusiast currently pursuing my B.E. in Computer Science and Engineering at Panimalar Engineering College. 
-            I'm deeply passionate about problem-solving, exploring new algorithms, and building applications that make a real-world impact.
+            Hello! I'm Dhanveer M, a dedicated and growth-driven Computer Science Engineering student at Panimalar Engineering College, passionate about solving real-world problems using Python, Data Science, and AI.
+          </p>
+          <p style={{ fontSize: '1.1rem', marginBottom: '1rem' }}>
+            Over the past year, I’ve completed multiple internships and hands-on projects that helped shape my practical coding skills and professional mindset. I believe in learning by doing — no shortcuts, love documenting projects professionally on GitHub, and find joy in fixing bugs, learning from failures, and helping others grow.
           </p>
           <p style={{ fontSize: '1.1rem' }}>
             Whether I'm participating in hackathons like Sathak-a-thon and Google Cloud Run, writing Python and Java scripts, or learning about cutting-edge AI and Cloud architectures, I believe that every expert was once a beginner.

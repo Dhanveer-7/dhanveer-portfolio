@@ -2,10 +2,10 @@ import React from 'react';
 import { ExternalLink } from 'lucide-react';
 
 const Skills = () => {
-  const languagesAdvanced = ['Java (Core & OOPs)', 'Python'];
+  const languagesAdvanced = ['Java (Core & OOPs)', 'Python', 'C'];
   const languagesIntermediate = ['HTML', 'CSS', 'JavaScript', 'C++'];
-  const systems = ['Data Structures', 'Algorithm Design', 'Software Development'];
-  const technologies = ['MongoDB', 'Spring Boot', 'GIT', 'React', 'Generative AI', 'AWS Services', 'Postman API'];
+  const systems = ['Data Structures', 'Algorithm Design', 'Software Development', 'AI & Chatbots'];
+  const technologies = ['MongoDB', 'Spring Boot', 'GIT', 'React.js', 'Node.js', 'Generative AI', 'AWS Services', 'Postman API', 'Power BI'];
 
   return (
     <section id="skills" className="skills bg-secondary">

@@ -89,9 +89,8 @@ section {
 }
 
 .header-container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 1rem 2rem;
+  width: 100%;
+  padding: 1rem 3rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
