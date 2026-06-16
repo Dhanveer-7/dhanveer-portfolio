@@ -6,10 +6,10 @@ const Hero = () => {
     <section id="home" className="hero">
       <div className="section-container hero-content">
         <h1 className="hero-title">Dhanveer M</h1>
-        <p className="hero-subtitle">Aspiring Data Science Engineer | AI Enthusiast | Java Developer</p>
+        <p className="hero-subtitle">Aspiring Java Developer | Core Java, OOPs, Data Structures | Pre-Final Year</p>
         <p style={{ color: 'var(--text-secondary)', maxWidth: '600px', margin: '0 auto 2rem' }}>
-          Student | B.E. CSE @ Panimalar Engineering College | Math Club Coordinator | Passionate Learner. 
-          Dedicated to turning Data into Insights and Impact. Experienced in Core Java, OOPs, Data Structures, and Python.
+          B.E. Computer Science Engineering Student @ Panimalar Engineering College | Math Club Coordinator. 
+          Passionate about AI, Machine Learning, and solving real-world problems.
         </p>
         <div className="hero-buttons">
           <a href="#contact" className="btn-primary">

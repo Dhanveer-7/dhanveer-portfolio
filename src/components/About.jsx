@@ -2,24 +2,27 @@ import React from 'react';
 
 const About = () => {
   const certifications = [
-    "AI-Powered Digital Twin of India's Climate — ISRO Bharatiya Antariksh Hackathon 2026",
-    'AWS APAC Solutions Architecture Virtual Experience (Forage)',
-    'AWS Educate (Cloud 101, Gen AI, ML Foundations)',
-    'AI Ascend 2026 Learning Program (Kyndryl & AWS)',
-    'Artificial Intelligence Fundamentals (IBM SkillsBuild)',
-    'C Programming Certification (GUVI & HCL)',
-    'Obtain an Appropriate Job (Wadhwani Foundation)',
-    'Postman API Fundamentals Student Expert',
-    'Basics of Python (Infosys Springboard)',
-    'Artificial Intelligence (Accenture & Kodacy)',
-    'Generative AI Studio (Simplilearn)',
-    'Employability Skills - JobReady (SWAYAM - 105 hours)',
-    'Freedom with AI Certification',
-    'Website Development (Igniters)',
-    'Power BI for Beginners (Simplilearn)',
-    'Cyber Security Awareness',
-    'HP LIFE Online Course (AI)',
-    'DCA (MS Office) & Web Designing (NKI Education)'
+    { name: "AI-Powered Digital Twin of India's Climate — ISRO Bharatiya Antariksh Hackathon 2026", link: "https://dhanveer-7-climate-twin--app-eodlti.streamlit.app/" },
+    { name: "Exploratory Data Analysis (Level 2 – AI Ready of AI ASCEND) — Accenture via FutureSkills PRIME" },
+    { name: "AWS Educate Introduction to Cloud 101", link: "https://lnkd.in/gHibjaud" },
+    { name: "AWS Educate Introduction to Generative AI", link: "https://lnkd.in/gh-Q4g2H" },
+    { name: "AWS Educate Machine Learning Foundations", link: "https://lnkd.in/gegCRceu" },
+    { name: "Artificial Intelligence Fundamentals — IBM via Edunet Foundation", link: "https://lnkd.in/gUX6nWjC" },
+    { name: "AWS APAC Solutions Architecture Virtual Experience (Forage)" },
+    { name: "AI Ascend 2026 Learning Program (Kyndryl & AWS)" },
+    { name: "C Programming Certification (GUVI & HCL)" },
+    { name: "Obtain an Appropriate Job (Wadhwani Foundation)" },
+    { name: "Postman API Fundamentals Student Expert" },
+    { name: "Basics of Python (Infosys Springboard)" },
+    { name: "Artificial Intelligence (Accenture & Kodacy)" },
+    { name: "Generative AI Studio (Simplilearn)" },
+    { name: "Employability Skills - JobReady (SWAYAM - 105 hours)" },
+    { name: "Freedom with AI Certification" },
+    { name: "Website Development (Igniters)" },
+    { name: "Power BI for Beginners (Simplilearn)" },
+    { name: "Cyber Security Awareness" },
+    { name: "HP LIFE Online Course (AI)" },
+    { name: "DCA (MS Office) & Web Designing (NKI Education)" }
   ];
 
   return (
@@ -69,7 +72,15 @@ const About = () => {
         <div className="card">
           <ul style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '1rem', listStyleType: 'disc', paddingLeft: '1.5rem', color: 'var(--text-secondary)' }}>
             {certifications.map((cert, index) => (
-              <li key={index} style={{ marginBottom: '0.5rem' }}>{cert}</li>
+              <li key={index} style={{ marginBottom: '0.5rem' }}>
+                {cert.link ? (
+                  <a href={cert.link} target="_blank" rel="noopener noreferrer" style={{ color: 'inherit', textDecoration: 'none', transition: 'color 0.2s' }} onMouseEnter={(e) => e.target.style.color = 'var(--primary-color)'} onMouseLeave={(e) => e.target.style.color = 'inherit'}>
+                    {cert.name} <span style={{ fontSize: '0.85rem', color: 'var(--primary-color)' }}>↗</span>
+                  </a>
+                ) : (
+                  cert.name
+                )}
+              </li>
             ))}
           </ul>
         </div>

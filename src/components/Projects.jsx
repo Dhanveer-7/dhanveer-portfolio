@@ -39,16 +39,17 @@ const Projects = () => {
     {
       id: 3,
       title: 'Neuro Compiler — GUI-Based Multi-Language Compiler Platform',
-      category: 'Desktop Application Hackathon',
-      description: 'Developed during Sathak-a-thon 2.0 at MSAJCE. Functions as a multilanguage compiler platform enabling users to write and execute code in multiple languages, with an integrated exam portal for teachers and students.',
+      category: 'Hackathon (Sathak-a-thon 2.0)',
+      description: 'Developed at Mohamed Sathak A.J. College of Engineering (MSAJCE). Neuro Compiler is a GUI-based multi-language editor and compiler platform designed to simplify coding practice and secure lab examinations for students.',
       features: [
-        'Write, compile, and execute code in multiple programming languages with real-time feedback',
-        'AI-powered debugging assistance and error explanations',
-        'Integrated test environment with performance evaluation and student tracking'
+        'Multi-Language Compiler: Supports writing, compiling, and executing code in multiple programming languages using Monaco/CodeMirror editors, GCC, Python Interpreter, and Java JDK.',
+        'AI Debugger Integration: Integrates AI support to provide real-time debugging assistance and detailed error explanations.',
+        'Exam Portal & Dashboards: Incorporates a secure exam environment for students with teacher performance tracking dashboards.',
+        'My Contribution: Led MongoDB database integration, backend API development, and AI debugging support integration.'
       ],
-      tech: ['React.js', 'Node.js', 'MongoDB', 'Python'],
+      tech: ['React.js', 'Node.js', 'MongoDB', 'Python', 'Monaco Editor', 'GCC'],
       links: {
-        github: 'https://github.com/Dhanveer-7',
+        github: 'https://github.com/Dhanveer-7/Neuro-Compiler',
         live: '#'
       }
     },
