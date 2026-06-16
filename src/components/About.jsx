@@ -2,6 +2,7 @@ import React from 'react';
 
 const About = () => {
   const certifications = [
+    "AI-Powered Digital Twin of India's Climate — ISRO Bharatiya Antariksh Hackathon 2026",
     'AWS APAC Solutions Architecture Virtual Experience (Forage)',
     'AWS Educate (Cloud 101, Gen AI, ML Foundations)',
     'AI Ascend 2026 Learning Program (Kyndryl & AWS)',
@@ -34,7 +35,7 @@ const About = () => {
             Over the past year, I’ve completed multiple internships and hands-on projects that helped shape my practical coding skills and professional mindset. I believe in learning by doing — no shortcuts, love documenting projects professionally on GitHub, and find joy in fixing bugs, learning from failures, and helping others grow.
           </p>
           <p style={{ fontSize: '1.1rem' }}>
-            Whether I'm participating in hackathons like Sathak-a-thon and Google Cloud Run, writing Python and Java scripts, or learning about cutting-edge AI and Cloud architectures, I believe that every expert was once a beginner.
+            Whether I'm participating in prestigious hackathons like the ISRO Bharatiya Antariksh Hackathon, Sathak-a-thon, and Google Cloud Run, writing Python and Java scripts, or learning about cutting-edge AI and Cloud architectures, I believe that every expert was once a beginner.
           </p>
         </div>
 

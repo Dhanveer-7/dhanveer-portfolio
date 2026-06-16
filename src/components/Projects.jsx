@@ -5,6 +5,23 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
+      title: "AI-Powered Digital Twin of India's Climate",
+      category: 'ISRO Bharatiya Antariksh Hackathon 2026',
+      description: "Developed an advanced spatial-temporal Digital Twin of India's Climate as a Proof-of-Concept (PoC) web application. The platform ingests historical meteorology data across all 36 Indian States and Union Territories, builds recursive multi-step forecasting models, maps spatial z-score anomalies, and enables interactive 'what-if' stress testing to evaluate ecological risks and sectoral impacts.",
+      features: [
+        'Robust Ingestion Pipeline: Vectorized daily meteorological generator spanning 16 years (220k+ records) with cyclic trigonometric seasonal components',
+        'ML Prediction Engine: Trained Random Forest and XGBoost Regressors in parallel with a recursive forecasting algorithm for 7-day and 30-day forecast windows',
+        'What-If Stress Testing Simulator: Estimates crop yield drops, reservoir depletion, and thermal discomfort indexes under warming scenarios',
+        'Interactive Mapping Room: Renders spatial anomalies and weather heatmaps on CartoDB dark-matter Folium map layers'
+      ],
+      tech: ['Streamlit', 'Python', 'XGBoost', 'Scikit-Learn', 'Folium', 'SQLite', 'Plotly'],
+      links: {
+        github: 'https://github.com/Dhanveer-7/climate-twin-',
+        live: 'https://dhanveer-7-climate-twin--app-eodlti.streamlit.app/'
+      }
+    },
+    {
+      id: 2,
       title: 'HealthAssist AI',
       category: 'Cloud / AI Hackathon',
       description: 'An AI-powered healthcare chatbot built to offer reliable and empathetic health guidance. Participated in the Google Cloud Run Hackathon 2025 organized by Google Cloud and DevPost.',
@@ -20,7 +37,7 @@ const Projects = () => {
       }
     },
     {
-      id: 2,
+      id: 3,
       title: 'Neuro Compiler — GUI-Based Multi-Language Compiler Platform',
       category: 'Desktop Application Hackathon',
       description: 'Developed during Sathak-a-thon 2.0 at MSAJCE. Functions as a multilanguage compiler platform enabling users to write and execute code in multiple languages, with an integrated exam portal for teachers and students.',
@@ -36,7 +53,7 @@ const Projects = () => {
       }
     },
     {
-      id: 3,
+      id: 4,
       title: 'Student Management System',
       category: 'Software Application',
       description: 'A complete, real-world desktop application built during the Stackmod internship to manage student records effectively.',
@@ -52,7 +69,7 @@ const Projects = () => {
       }
     },
     {
-      id: 4,
+      id: 5,
       title: 'Advanced AI & Data Tracking Tools',
       category: 'Python Scripts',
       description: 'Projects built during CodeAlpha internship involving AI chatbots and financial data tracking.',
@@ -67,7 +84,7 @@ const Projects = () => {
       }
     },
     {
-      id: 5,
+      id: 6,
       title: 'Collection of Java Classic Games',
       category: 'Desktop Games',
       description: 'A collection of interactive games including Connect Four, Tic Tac Toe, Rock Paper Scissors, and Guess the Number, built at InternPe.',

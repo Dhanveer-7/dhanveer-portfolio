@@ -5,7 +5,7 @@ const Skills = () => {
   const languagesAdvanced = ['Java (Core & OOPs)', 'Python', 'C'];
   const languagesIntermediate = ['HTML', 'CSS', 'JavaScript', 'C++'];
   const systems = ['Data Structures', 'Algorithm Design', 'Software Development', 'AI & Chatbots'];
-  const technologies = ['MongoDB', 'Spring Boot', 'GIT', 'React.js', 'Node.js', 'Generative AI', 'AWS Services', 'Postman API', 'Power BI'];
+  const technologies = ['MongoDB', 'SQLite', 'XGBoost', 'Scikit-Learn', 'React.js', 'Node.js', 'Generative AI', 'AWS Services', 'Postman API', 'Power BI', 'Plotly', 'GIT', 'Spring Boot'];
 
   return (
     <section id="skills" className="skills bg-secondary">
