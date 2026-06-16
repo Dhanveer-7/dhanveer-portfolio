@@ -4,6 +4,18 @@ const Experience = () => {
   const experiences = [
     {
       id: 1,
+      role: 'General AI Fluency Intern',
+      company: 'FlyRank Corp.',
+      duration: 'July 2026 – Aug 2026 (Upcoming)',
+      location: 'Remote',
+      responsibilities: [
+        'Accepted into the 6-week intensive FlyRank AI Internship program as a General AI Fluency Intern.',
+        'Eager to collaborate with experienced mentors and fellow interns on artificial intelligence and machine learning.',
+        'Focusing on general AI fluency, generative systems, and real-world data-driven problem-solving.'
+      ]
+    },
+    {
+      id: 2,
       role: 'AI & Machine Learning Intern',
       company: 'Edunet Foundation (AICTE)',
       duration: 'Jan 2026 – Feb 2026',
@@ -15,7 +27,7 @@ const Experience = () => {
       ]
     },
     {
-      id: 2,
+      id: 3,
       role: 'Software Developer Intern',
       company: 'Stackmod Innovations Pvt. Ltd.',
       duration: 'Dec 2025 – Jan 2026',
@@ -27,7 +39,7 @@ const Experience = () => {
       ]
     },
     {
-      id: 3,
+      id: 4,
       role: 'Java Programming Intern',
       company: 'InternPe',
       duration: 'Dec 2025',
@@ -39,7 +51,7 @@ const Experience = () => {
       ]
     },
     {
-      id: 4,
+      id: 5,
       role: 'Python Programming Intern',
       company: 'CodeAlpha',
       duration: 'July 2025',
@@ -51,7 +63,7 @@ const Experience = () => {
       ]
     },
     {
-      id: 5,
+      id: 6,
       role: 'Python Intern',
       company: 'Codec Technologies India',
       duration: 'May 2025 – Jun 2025',
@@ -61,7 +73,7 @@ const Experience = () => {
       ]
     },
     {
-      id: 6,
+      id: 7,
       role: 'Course Instructor',
       company: 'NKI Computers',
       duration: 'May 2024 – Jul 2024',
