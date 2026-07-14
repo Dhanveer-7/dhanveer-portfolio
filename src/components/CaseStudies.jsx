@@ -30,7 +30,7 @@ const CaseStudies = () => {
       category: "project",
       categoryLabel: "ISRO Hackathon 2026",
       icon: Award,
-      duration: "Winner PoC",
+      duration: "Hackathon PoC",
       description: "Developed an advanced spatial-temporal climate digital twin dashboard for 36 Indian states. Ingests historical daily meteorology data (220k+ records), builds recursive multi-step forecasting models, and maps spatial z-score anomalies.",
       highlights: [
         "Achieved temperature forecasting accuracy of R² ≥ 0.97 and MAE of ≈ 1.0°C using Random Forest and XGBoost",
