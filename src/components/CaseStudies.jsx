@@ -85,6 +85,26 @@ const CaseStudies = () => {
     },
     {
       id: 5,
+      title: "AirGuard AI — AI-Powered Air Quality Forecasting & Monitoring",
+      category: "project",
+      categoryLabel: "Neural Ninjas — Hackathon Project (Round 1)",
+      icon: Code,
+      duration: "Ongoing Hackathon",
+      description: "Developed AirGuard AI, an intelligent forecasting and spatial hotspots mapping system designed to predict urban Air Quality Index (AQI) levels 24-72 hours in advance. Integrates multi-source feeds from OpenWeather, OpenAQ, and CPCB, delivering personalized health recommendations.",
+      highlights: [
+        "Constructed predictive forecasting models (using Scikit-Learn and TensorFlow) to estimate AQI values 24–72 hours in advance",
+        "Engineered spatial-temporal data pipelines combining weather patterns and environmental data to identify city pollution hotspots",
+        "Designed real-time early warning notifications and automated citizen health advisor alerts based on predicted AQI levels",
+        "My Contribution: Acted as Team Leader, coordinated project architecture, designed ML regression models, and led Streamlit dashboard visualization development"
+      ],
+      tech: ['Python', 'Scikit-Learn', 'TensorFlow', 'Streamlit', 'Firebase', 'MongoDB', 'Plotly'],
+      links: {
+        github: 'https://github.com/Dhanveer-7',
+        live: '#'
+      }
+    },
+    {
+      id: 6,
       title: "Neuro Compiler — GUI-Based Multi-Language Compiler Platform",
       category: "project",
       categoryLabel: "Sathak-a-thon 2.0 Hackathon",
@@ -103,7 +123,7 @@ const CaseStudies = () => {
       }
     },
     {
-      id: 6,
+      id: 7,
       title: "HealthAssist AI Chatbot",
       category: "project",
       categoryLabel: "Google Cloud Run Hackathon 2025",
@@ -122,7 +142,7 @@ const CaseStudies = () => {
       }
     },
     {
-      id: 7,
+      id: 8,
       title: "General AI Fluency Intern",
       category: "internship",
       categoryLabel: "FlyRank Corp. — Internship",
@@ -141,7 +161,7 @@ const CaseStudies = () => {
       }
     },
     {
-      id: 8,
+      id: 9,
       title: "AI & Machine Learning Intern",
       category: "internship",
       categoryLabel: "Edunet Foundation (AICTE) — Internship",
