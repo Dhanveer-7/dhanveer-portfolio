@@ -26,10 +26,17 @@ const Contact = () => {
           {/* Info Card */}
           <div className="card" style={{ borderLeft: '4px solid var(--primary-color)' }}>
             <h3 style={{ fontSize: '1.75rem', marginBottom: '1rem', fontWeight: '700' }}>Let's Connect!</h3>
-            <p style={{ color: 'var(--text-secondary)', marginBottom: '2rem', fontSize: '1.1rem', lineHeight: '1.6' }}>
+            <p style={{ color: 'var(--text-secondary)', marginBottom: '1.5rem', fontSize: '1.1rem', lineHeight: '1.6' }}>
               I'm always open to discussing new opportunities, creative project ideas, research collaborations, or internship openings. 
               Drop me a message and I'll get back to you as soon as possible!
             </p>
+
+            {/* Internship Availability Card */}
+            <div style={{ backgroundColor: 'var(--bg-primary)', padding: '1.25rem', borderRadius: '8px', border: '1px solid var(--border-color)', marginBottom: '2rem' }}>
+              <div style={{ fontSize: '0.8rem', color: 'var(--primary-dark)', fontWeight: '700', textTransform: 'uppercase', letterSpacing: '0.05em' }}>Internship Availability</div>
+              <div style={{ fontSize: '1rem', color: 'var(--text-primary)', marginTop: '0.3rem', fontWeight: '600' }}>Available Starting Fall 2026 / Summer 2027</div>
+              <div style={{ fontSize: '0.85rem', color: 'var(--text-secondary)', marginTop: '0.2rem', lineHeight: '1.4' }}>Open to remote & hybrid AI/ML, Data Analyst, or SWE roles. No notice period.</div>
+            </div>
             
             <div style={{ display: 'flex', flexDirection: 'column', gap: '1.25rem' }}>
               <a href="mailto:dhanveer24112006@gmail.com" style={{ display: 'flex', alignItems: 'center', gap: '0.75rem', color: 'var(--text-primary)', textDecoration: 'none', fontWeight: '600', transition: 'color 0.2s' }} onMouseEnter={(e) => e.target.style.color = 'var(--primary-color)'} onMouseLeave={(e) => e.target.style.color = 'var(--text-primary)'}>

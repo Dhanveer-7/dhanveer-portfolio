@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Menu, X } from 'lucide-react';
+import { Menu, X, Github, Linkedin } from 'lucide-react';
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -16,9 +16,20 @@ const Header = () => {
           <a href="#contact" onClick={() => setIsOpen(false)}>Contact</a>
         </nav>
 
-        <button className="mobile-menu-btn" onClick={() => setIsOpen(!isOpen)}>
-          {isOpen ? <X /> : <Menu />}
-        </button>
+        <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
+          <div className="header-social-links" style={{ display: 'flex', gap: '1rem' }}>
+            <a href="https://github.com/Dhanveer-7" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--text-secondary)', transition: 'color 0.2s' }} onMouseEnter={(e) => e.target.style.color = 'var(--primary-color)'} onMouseLeave={(e) => e.target.style.color = 'var(--text-secondary)'} title="GitHub">
+              <Github size={20} />
+            </a>
+            <a href="https://linkedin.com/in/dhanveer-m-a0785232b" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--text-secondary)', transition: 'color 0.2s' }} onMouseEnter={(e) => e.target.style.color = 'var(--primary-color)'} onMouseLeave={(e) => e.target.style.color = 'var(--text-secondary)'} title="LinkedIn">
+              <Linkedin size={20} />
+            </a>
+          </div>
+
+          <button className="mobile-menu-btn" onClick={() => setIsOpen(!isOpen)}>
+            {isOpen ? <X /> : <Menu />}
+          </button>
+        </div>
       </div>
     </header>
   );

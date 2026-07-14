@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { ExternalLink, Github, BookOpen, Briefcase, Award, Code } from 'lucide-react';
+import { ExternalLink, Github, BookOpen, Briefcase, Award, Code, ChevronRight } from 'lucide-react';
 
 const CaseStudies = () => {
   const [activeFilter, setActiveFilter] = useState('all');
@@ -11,7 +11,7 @@ const CaseStudies = () => {
       category: "research",
       categoryLabel: "AI Research Paper",
       icon: BookOpen,
-      duration: "Published 2026",
+      duration: "Research Preprint / Under Review",
       description: "Authored research on KAIR (Knowledge-Aware Iterative Retrieval) for multi-agent systems. Explores cooperative agent workflows and vector retrieval-augmented knowledge bases to improve autonomous decision-making accuracy and reduce latency.",
       highlights: [
         "Formulated knowledge-aware iterative retrieval mechanisms for agent networks to prevent context-drift",
@@ -118,63 +118,30 @@ const CaseStudies = () => {
         github: 'https://github.com/Dhanveer-7',
         live: '#'
       }
+    }
+  ];
+
+  const earlyInternships = [
+    {
+      role: "Software Developer Intern",
+      company: "Stackmod Innovations Pvt. Ltd.",
+      duration: "Dec 2025 – Jan 2026",
+      tech: ["Java Swing", "OOP", "File I/O", "CRUD Modules"],
+      highlights: "Developed Swing-based Student Management System with unique student ID validation and offline serialization persistence."
     },
     {
-      id: 7,
-      title: "Software Developer Intern",
-      category: "internship",
-      categoryLabel: "Stackmod Innovations — Internship",
-      icon: Briefcase,
-      duration: "December 2025 – January 2026",
-      description: "Developed desktop software applications using object-oriented Java concepts and interactive GUI designs.",
-      highlights: [
-        "Programmed a complete Student Management System in Java Swing with secure CRUD operations",
-        "Implemented custom offline database persistence using local file-handling serialization",
-        "Designed input validation systems for unique identifiers to guarantee data integrity"
-      ],
-      tech: ['Java', 'Java Swing', 'File I/O', 'OOP'],
-      links: {
-        github: 'https://github.com/Dhanveer-7',
-        live: '#'
-      }
+      role: "Java Programming Intern",
+      company: "InternPe",
+      duration: "Dec 2025",
+      tech: ["Java Swing", "OOP", "Event Handling", "Win/Draw Logic"],
+      highlights: "Earned 'Star Performer' award. Built Connect Four, Tic Tac Toe, Rock Paper Scissors, and Guess the Number."
     },
     {
-      id: 8,
-      title: "Java Programming Intern",
-      category: "internship",
-      categoryLabel: "InternPe — Internship",
-      icon: Briefcase,
-      duration: "December 2025",
-      description: "Recognized as a 'Star Performer' for designing interactive, algorithmic gameplay logic in Java.",
-      highlights: [
-        "Developed 4 graphical Java games (Connect Four, Tic Tac Toe, Rock Paper Scissors, Guess the Number)",
-        "Implemented game algorithms and win/draw condition evaluations in Swing",
-        "Focused on interactive UI rendering and event-driven keyboard/mouse listeners"
-      ],
-      tech: ['Java GUI', 'Java Swing', 'Event Handling', 'Game Algorithms'],
-      links: {
-        github: 'https://github.com/Dhanveer-7',
-        live: '#'
-      }
-    },
-    {
-      id: 9,
-      title: "Python Programming Intern",
-      category: "internship",
-      categoryLabel: "CodeAlpha — Internship",
-      icon: Briefcase,
+      role: "Python Programming Intern",
+      company: "CodeAlpha",
       duration: "July 2025",
-      description: "Awarded Letter of Recommendation for constructing rule-based chatbot architectures and stock valuation trackers.",
-      highlights: [
-        "Engineered stock portfolio valuation logs with file-system data streams",
-        "Faced and resolved deep Unicode parsing errors during UTF-8 stream coding",
-        "Designed rule-based matching loops for intent detection and messaging automation"
-      ],
-      tech: ['Python', 'File Handling', 'Chatbot Architectures', 'Debugging'],
-      links: {
-        github: 'https://github.com/Dhanveer-7',
-        live: '#'
-      }
+      tech: ["Python", "Regex", "Intent Mapping", "File handling"],
+      highlights: "Received Letter of Recommendation highlighting: 'Recognized for strong analytical skills and constructing rule-based chatbot architectures.'"
     }
   ];
 
@@ -274,6 +241,44 @@ const CaseStudies = () => {
             );
           })}
         </div>
+
+        {/* Early Foundational Internships List */}
+        {(activeFilter === 'all' || activeFilter === 'internship') && (
+          <div style={{ marginTop: '5.5rem' }}>
+            <h3 style={{ fontSize: '1.8rem', color: 'var(--primary-color)', marginBottom: '1rem', textAlign: 'center', fontWeight: '700' }}>
+              Foundational Internships
+            </h3>
+            <p style={{ color: 'var(--text-secondary)', textAlign: 'center', marginBottom: '3rem', fontSize: '1.05rem' }}>
+              Early technical experiences focused on scripting, games development, and desktop application patterns.
+            </p>
+            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: '1.5rem' }}>
+              {earlyInternships.map((intern, idx) => (
+                <div key={idx} className="card" style={{ padding: '1.75rem', display: 'flex', flexDirection: 'column', gap: '0.75rem', borderTop: '4px solid var(--primary-color)' }}>
+                  <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', gap: '0.5rem' }}>
+                    <h4 style={{ fontSize: '1.15rem', margin: 0, fontWeight: '700', color: 'var(--text-primary)' }}>{intern.role}</h4>
+                    <span style={{ fontSize: '0.8rem', color: 'var(--text-secondary)', whiteSpace: 'nowrap', fontWeight: '500', backgroundColor: 'var(--bg-primary)', padding: '0.2rem 0.5rem', borderRadius: '4px' }}>
+                      {intern.duration}
+                    </span>
+                  </div>
+                  <h5 style={{ fontSize: '0.95rem', color: 'var(--primary-dark)', margin: 0, fontWeight: '600', display: 'flex', alignItems: 'center', gap: '0.25rem' }}>
+                    <ChevronRight size={14} /> {intern.company}
+                  </h5>
+                  <p style={{ color: 'var(--text-secondary)', fontSize: '0.925rem', lineHeight: '1.5', margin: '0.25rem 0', flex: 1 }}>
+                    {intern.highlights}
+                  </p>
+                  <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.4rem', marginTop: '0.5rem', borderTop: '1px solid var(--border-color)', paddingTop: '0.75rem' }}>
+                    {intern.tech.map((t, i) => (
+                      <span key={i} style={{ fontSize: '0.75rem', padding: '0.2rem 0.5rem', backgroundColor: 'var(--bg-primary)', border: '1px solid var(--border-color)', borderRadius: '4px', color: 'var(--text-secondary)', fontWeight: '500' }}>
+                        {t}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        )}
+
       </div>
     </section>
   );
