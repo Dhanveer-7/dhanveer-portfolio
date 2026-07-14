@@ -18,7 +18,7 @@ const Hero = () => {
             <div style={{ fontSize: '0.8rem', color: 'var(--text-secondary)', fontWeight: '700', textTransform: 'uppercase', letterSpacing: '0.05em', marginTop: '0.2rem' }}>Internships</div>
           </div>
           <div style={{ padding: '0.5rem 1.5rem', textAlign: 'center', flex: '1 1 120px', borderLeft: '1px solid var(--border-color)' }} className="stat-border-left">
-            <div style={{ fontSize: '2.25rem', fontWeight: '800', color: 'var(--primary-color)' }}>5</div>
+            <div style={{ fontSize: '2.25rem', fontWeight: '800', color: 'var(--primary-color)' }}>6</div>
             <div style={{ fontSize: '0.8rem', color: 'var(--text-secondary)', fontWeight: '700', textTransform: 'uppercase', letterSpacing: '0.05em', marginTop: '0.2rem' }}>Hackathons</div>
           </div>
           <div style={{ padding: '0.5rem 1.5rem', textAlign: 'center', flex: '1 1 120px', borderLeft: '1px solid var(--border-color)' }} className="stat-border-left">

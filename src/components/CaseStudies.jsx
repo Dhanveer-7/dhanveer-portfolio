@@ -65,6 +65,26 @@ const CaseStudies = () => {
     },
     {
       id: 4,
+      title: "Q-Guard AI — Multi-Agent Quantum Fraud Intelligence",
+      category: "project",
+      categoryLabel: "RIT Quantathon 2026",
+      icon: Code,
+      duration: "Hackathon Project",
+      description: "Developed a state-of-the-art Multi-Agent Quantum Machine Learning (QML) framework to identify complex, coordinated financial fraud in real-time. Maps multi-dimensional transaction telemetry to Hilbert space coordinates on a 4-Qubit Variational Quantum Circuit (VQC) to detect non-linear fraud loops.",
+      highlights: [
+        "Constructed a 4-Qubit Variational Quantum Circuit (VQC) with Pennylane to optimize risk weight calculations via Bloch Sphere projections",
+        "Designed adaptive context-threshold limits (58% to 95%) leveraging temporal, merchant, and device trust telemetry",
+        "Engineered Self-Explainable AI (XAI) modules translating quantum state measurements into human-readable compliance audit trails",
+        "My Contribution: Led quantum circuit telemetry mapping, FastAPI service integration, and Vercel-based dashboard deployment"
+      ],
+      tech: ['Python', 'Pennylane (QML)', 'PyTorch', 'FastAPI', 'MongoDB', 'Vercel'],
+      links: {
+        github: 'https://github.com/Dhanveer-7/Quantathon-2026',
+        live: 'https://quantathon-2026-weld.vercel.app/'
+      }
+    },
+    {
+      id: 5,
       title: "Neuro Compiler — GUI-Based Multi-Language Compiler Platform",
       category: "project",
       categoryLabel: "Sathak-a-thon 2.0 Hackathon",
@@ -83,7 +103,7 @@ const CaseStudies = () => {
       }
     },
     {
-      id: 5,
+      id: 6,
       title: "HealthAssist AI Chatbot",
       category: "project",
       categoryLabel: "Google Cloud Run Hackathon 2025",
@@ -102,7 +122,7 @@ const CaseStudies = () => {
       }
     },
     {
-      id: 6,
+      id: 7,
       title: "General AI Fluency Intern",
       category: "internship",
       categoryLabel: "FlyRank Corp. — Internship",
@@ -121,7 +141,7 @@ const CaseStudies = () => {
       }
     },
     {
-      id: 7,
+      id: 8,
       title: "AI & Machine Learning Intern",
       category: "internship",
       categoryLabel: "Edunet Foundation (AICTE) — Internship",
