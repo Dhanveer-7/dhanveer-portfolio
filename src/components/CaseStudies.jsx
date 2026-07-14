@@ -87,7 +87,7 @@ const CaseStudies = () => {
       id: 5,
       title: "AirGuard AI — AI-Powered Air Quality Forecasting & Monitoring",
       category: "project",
-      categoryLabel: "Neural Ninjas — Hackathon Project (Round 1)",
+      categoryLabel: "Karpagam Hackathon 2026 — Round 1",
       icon: Code,
       duration: "Ongoing Hackathon",
       description: "Developed AirGuard AI, an intelligent forecasting and spatial hotspots mapping system designed to predict urban Air Quality Index (AQI) levels 24-72 hours in advance. Integrates multi-source feeds from OpenWeather, OpenAQ, and CPCB, delivering personalized health recommendations.",
