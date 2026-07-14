@@ -4,6 +4,7 @@ import { Download, BookOpen, Award, GraduationCap } from 'lucide-react';
 const About = () => {
   const certifications = [
     { name: "AI-Powered Digital Twin of India's Climate — ISRO Bharatiya Antariksh Hackathon 2026", link: "https://dhanveer-7-climate-twin--app-eodlti.streamlit.app/" },
+    { name: "Runner-Up — VIT Indian Bank Hackathon 2026 (IntelliTrace Project)", link: "" },
     { name: "Exploratory Data Analysis (Level 2 – AI Ready of AI ASCEND) — Accenture via FutureSkills PRIME", link: "" },
     { name: "AWS Educate Introduction to Cloud 101", link: "https://lnkd.in/gHibjaud" },
     { name: "AWS Educate Introduction to Generative AI", link: "https://lnkd.in/gh-Q4g2H" },

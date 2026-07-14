@@ -45,6 +45,26 @@ const CaseStudies = () => {
     },
     {
       id: 3,
+      title: "IntelliTrace 2026 — Real-Time Cross-Channel Mule Account Detection",
+      category: "project",
+      categoryLabel: "VIT Indian Bank Hackathon — Runner-Up",
+      icon: Award,
+      duration: "Runner-Up PoC",
+      description: "Developed an intelligent real-time Graph Intelligence Platform for Indian Bank to detect money mule rings across multi-channel banking logs. Unifies transaction logs, devices, IPs, and ATMs into a structured entity graph, applying Graph Neural Networks (GNN) to perform node classification.",
+      highlights: [
+        "Unifies siloed banking logs (App, Web, ATM, UPI) into a single entity-relation graph (Accounts, Devices, IPs, ATMs)",
+        "Applies Graph Neural Networks (GNN) for node classification to automatically label suspicious money mule accounts",
+        "Generates explainable 0–100 risk scores based on degree centrality, velocity metrics, and shared device clusters",
+        "My Contribution: Directed entity graph schema normalization, graph centrality feature engineering, and Streamlit alerting dashboard design"
+      ],
+      tech: ['Python', 'Graph Neural Networks (GNN)', 'NetworkX', 'Streamlit', 'PyTorch Geometric', 'Pandas'],
+      links: {
+        github: 'https://github.com/Dhanveer-7',
+        live: '#'
+      }
+    },
+    {
+      id: 4,
       title: "Neuro Compiler — GUI-Based Multi-Language Compiler Platform",
       category: "project",
       categoryLabel: "Sathak-a-thon 2.0 Hackathon",
@@ -63,7 +83,7 @@ const CaseStudies = () => {
       }
     },
     {
-      id: 4,
+      id: 5,
       title: "HealthAssist AI Chatbot",
       category: "project",
       categoryLabel: "Google Cloud Run Hackathon 2025",
@@ -82,7 +102,7 @@ const CaseStudies = () => {
       }
     },
     {
-      id: 5,
+      id: 6,
       title: "General AI Fluency Intern",
       category: "internship",
       categoryLabel: "FlyRank Corp. — Internship",
@@ -101,7 +121,7 @@ const CaseStudies = () => {
       }
     },
     {
-      id: 6,
+      id: 7,
       title: "AI & Machine Learning Intern",
       category: "internship",
       categoryLabel: "Edunet Foundation (AICTE) — Internship",
