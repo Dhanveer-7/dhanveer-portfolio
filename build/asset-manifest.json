@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/dhanveer-portfolio/static/css/main.126e86fa.css",
-    "main.js": "/dhanveer-portfolio/static/js/main.a145a3af.js",
-    "index.html": "/dhanveer-portfolio/index.html",
-    "main.126e86fa.css.map": "/dhanveer-portfolio/static/css/main.126e86fa.css.map",
-    "main.a145a3af.js.map": "/dhanveer-portfolio/static/js/main.a145a3af.js.map"
+    "main.css": "./static/css/main.126e86fa.css",
+    "main.js": "./static/js/main.a145a3af.js",
+    "index.html": "./index.html",
+    "main.126e86fa.css.map": "./static/css/main.126e86fa.css.map",
+    "main.a145a3af.js.map": "./static/js/main.a145a3af.js.map"
   },
   "entrypoints": [
     "static/css/main.126e86fa.css",
